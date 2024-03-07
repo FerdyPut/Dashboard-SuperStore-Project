@@ -5,4 +5,4 @@ plotly.express==0.4.1
 pandas==1.2.3
 express==1.0
 plotly==5.19.0
-
+matplotlib==1.5.1
