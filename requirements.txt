@@ -6,4 +6,5 @@ pandas==1.2.3
 express==1.0
 os
 warning
-plotly.offline
+plotly
+
