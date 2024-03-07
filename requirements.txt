@@ -11,4 +11,5 @@ protobuf>=3.20,<5
 pytube==10.7.2
 pathlib2==2.3.5
 os-sys==2.1.4
-Pillow==8.2.0
+pillow==8.2.0
+pip==22.2.0
