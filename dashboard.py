@@ -26,7 +26,7 @@ if f1 is not None:
     
     # Cek tipe file yang diunggah
     if filename.endswith('.csv'):
-        df = pd.read_csv(f1, sep='t')
+        df = pd.read_csv(f1, sep='t')  # Jika format file adalah .csv, gunakan sep='\t' untuk menggunakan tab sebagai separator
     else:
         df = pd.read_excel(f1)
 
