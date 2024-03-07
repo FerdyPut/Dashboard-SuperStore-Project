@@ -28,9 +28,9 @@ if f1 is not None:
     if filename.endswith('.csv'):
         use_header = st.checkbox("Gunakan Header CSV")
         if use_header:
-            df = pd.read_csv(f1, sep='t')  # Jika format file adalah .csv dan menggunakan header
+            df = pd.read_csv(f1, sep=',')  # Jika format file adalah .csv dan menggunakan header
         else:
-            df = pd.read_csv(f1, sep='t', header=None)  # Jika format file adalah .csv dan tanpa header
+            df = pd.read_csv(f1, sep=',', header=None)  # Jika format file adalah .csv dan tanpa header
     else:
         df = pd.read_excel(f1)
 
