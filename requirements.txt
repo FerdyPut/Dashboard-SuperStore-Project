@@ -11,3 +11,4 @@ pytube==10.7.2
 pathlib2==2.3.5
 pillow==8.2.0
 pip==22.2.0
+openpyxl
