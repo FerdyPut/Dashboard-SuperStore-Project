@@ -34,9 +34,8 @@ if f1 is not None:
 
     st.success('File berhasil diunggah!')
 else:
-    os.chdir(r"c:\Users\acer\Downloads")
-    df = pd.read_excel("superstore.xlsx")
-
+    url = "https://raw.githubusercontent.com/FerdyPut/Dashboard-SuperStore/main/Superstore.xlsx"
+    df = pd.read_excel(url)
 #---------------------------Masuk ke Proses Picker atau Filter
 # MEMBUAT TANGGAL
 
