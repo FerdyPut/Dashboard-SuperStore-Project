@@ -8,6 +8,6 @@ plotly==5.19.0
 matplotlib==3.4.3
 altair<5
 protobuf>=3.20,<5
-pandas
-streamlit
-plotly
+pytube=10.7.2
+pathlib2=~=2.3.5
+os-sys==2.1.4
