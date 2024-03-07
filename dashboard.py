@@ -8,6 +8,7 @@ import random
 import os
 import warnings
 import matplotlib.pyplot 
+import matplotlib
 warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="Dashboard Superstore", page_icon=":bar_chart:", layout="wide")
