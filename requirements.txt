@@ -1,0 +1,7 @@
+numpy==1.20.1
+streamlit
+seaborn==0.11.1
+plotly.express
+pandas==1.2.3
+os
+warning
