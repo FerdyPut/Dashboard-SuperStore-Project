@@ -26,12 +26,7 @@ if f1 is not None:
     
     # Cek tipe file yang diunggah
     if filename.endswith('.csv'):
-        delimiter = st.text_input("Masukkan delimiter CSV (default = ','):", ',')
-        sep = st.text_input("Masukkan separator CSV (default = None):")
-        if sep:
-            df = pd.read_csv(f1, delimiter=delimiter, sep=sep)
-        else:
-            df = pd.read_csv(f1, delimiter=delimiter)
+        df = pd.read_csv(f1, sep=';')
     else:
         df = pd.read_excel(f1)
 
