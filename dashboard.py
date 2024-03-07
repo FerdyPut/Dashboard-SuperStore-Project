@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 import math
 import random
+import os
+import warnings
 st.set_page_config(page_title="Dashboard Superstore", page_icon=":bar_chart:", layout="wide")
 
 #---------------------Memberikan title
