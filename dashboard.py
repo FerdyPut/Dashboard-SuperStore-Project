@@ -26,7 +26,11 @@ if f1 is not None:
     
     # Cek tipe file yang diunggah
     if filename.endswith('.csv'):
-        df = pd.read_csv(f1, sep='t')  # Jika format file adalah .csv, gunakan sep='\t' untuk menggunakan tab sebagai separator
+        use_header = st.checkbox("Gunakan Header CSV")
+        if use_header:
+            df = pd.read_csv(f1, sep='t')  # Jika format file adalah .csv dan menggunakan header
+        else:
+            df = pd.read_csv(f1, sep='t', header=None)  # Jika format file adalah .csv dan tanpa header
     else:
         df = pd.read_excel(f1)
 
@@ -34,6 +38,7 @@ if f1 is not None:
 else:
     url = "https://raw.githubusercontent.com/FerdyPut/Dashboard-SuperStore/main/Superstore.xlsx"
     df = pd.read_excel(url)
+
 #---------------------------Masuk ke Proses Picker atau Filter
 # MEMBUAT TANGGAL
 
