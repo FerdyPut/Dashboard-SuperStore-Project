@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd 
-
+import plotly
 
 st.set_page_config(page_title="Dashboard Superstore", page_icon=":bar_chart:", layout="wide")
 
