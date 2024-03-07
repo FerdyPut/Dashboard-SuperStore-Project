@@ -7,3 +7,4 @@ express==1.0
 plotly==5.19.0
 matplotlib==3.4.3
 altair<5
+protobuf>=3.20,<5
