@@ -9,6 +9,7 @@ import os
 import warnings
 import matplotlib.pyplot 
 import matplotlib
+import matplotlib.cm as cm
 warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="Dashboard Superstore", page_icon=":bar_chart:", layout="wide")
