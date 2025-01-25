@@ -4,6 +4,8 @@ The Superstore dataset source can be downloaded via Kaggle: https://www.kaggle.c
 
 <img src="logostore.png" alt="Superstore Chart" width="200"/>
 
+<h4> Link Dashboard: </h4>
+You can see my dashboard on https://dashboard-superstore-project.streamlit.app/
 
 ## Definition
 Superstore datasets are popular datasets that are often used for data analysis exercises, visualization, and machine learning model development. These datasets typically consist of information related to sales, customers, products, and regions, similar to the data a retail or e-commerce store might have.
