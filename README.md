@@ -1,6 +1,6 @@
 <h1 style="text-align: center;"> Implementation of Streamlit on the Superstore Dataset Dashboard </h1>
 
-The Superstore dataset source can be downloaded via Kaggle: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final or you can download on my repository [Download here!](./Superstore.xlsx).
+The Superstore dataset source can be downloaded via Kaggle: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final or you can download on my repository [Download here!](./Superstore.xlsx). I created this dashboard as my streamlit project.
 
 <img src="logostore.png" alt="Superstore Chart" width="200"/>
 
