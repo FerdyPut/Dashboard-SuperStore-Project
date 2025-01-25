@@ -38,3 +38,7 @@ Superstore datasets are popular datasets that are often used for data analysis e
 2. **Analyzing Business Performance in Sales and Profitability** -> This dataset enables users to analyze sales trends and profitability across different dimensions, such as product categories, geographic regions, or customer segments. These insights can highlight high-performing areas and pinpoint underperforming ones that require further attention.
 3. **Identifying Purchase Patterns and Customer Segmentation** -> By leveraging attributes like region, segment, or product subcategories, the dataset facilitates customer segmentation. This is useful for understanding customer purchasing behavior and designing more targeted marketing strategies or personalized product recommendations.
 4. **Practicing Informative Data Visualization** -> The Superstore dataset is ideal for creating engaging and interactive data visualizations using tools like Tableau, Power BI, or Looker Studio. Users can develop dashboards to track sales performance, shipping workflows, or profitability across various dimensions and segments.
+
+                                                                 THANK YOU
+<h5> Follow more: </h5>
+<h6> My Linkedln: https://www.linkedin.com/in/ferdypput/</h6>
